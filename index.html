@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <div class="heading">
+    <h1 class="head">Calculator</h1>
+    </div>
+    <form action="" id="form" class="form">
+        <div class="box">
+        <label for="amount">Enter the Bill amount:</label>
+        <input type="number" id="amount">
+        <label for="tip">Enter the Tip amount:</label>
+        <input type="number" id="tip">
+        <button type="button" onclick="totalSum()">Calculate</button>
+        <div class="result">
+            <p>Total Amount: <span id="totalAmount">0.00</span></p>
+        </div>
+        </div>
+
+    </form>
+   </div> 
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
